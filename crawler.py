@@ -4,7 +4,7 @@ from gitlab.exceptions import GitlabParsingError
 
 TAG = "inner-source"
 # private token or personal token authentication
-gl = gitlab.Gitlab.from_config('gitlab', ['/Users/sicot_f/.python-gitlab.cfg'])
+gl = gitlab.Gitlab.from_config('gitlab')
 
 # list all the projects
 # manual iterations over the generator as to capture the GitlabParsingError exception

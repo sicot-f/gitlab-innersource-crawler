@@ -1,1 +1,2 @@
-# gitlab-innersource-crawler
+# Gitlab InnerSource Crawler
+
